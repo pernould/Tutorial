@@ -53,7 +53,6 @@ nav {
 	border-bottom-color: #989898;
 }
 nav ul {
-	z-index: 200;
 	float: right;
 	vertical-align: middle;
 	display: inline-block;
