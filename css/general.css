@@ -1,0 +1,102 @@
+body {
+	font-family: 'Open Sans';
+}
+
+/* header */
+header {
+	background-image: url("../img/fond.png");
+	height: 90vh;
+	width: 100%;
+	display: table;
+}	
+#text {
+	margin: auto;
+	width: 250px;
+	display: table-cell;
+	text-align: center;
+    vertical-align: middle;
+}
+header p {
+	color: #ffffff;
+	font-size: 24px;
+	align: center;
+}
+header span {
+	font-size: 15px;
+}
+/* menu */
+.fixed-bottom {
+	position: fixed;
+	bottom: 0;
+}
+.fixed-top {
+	position: fixed;
+	top: 0;
+}
+#menu {
+	width: 60%;
+	margin: 10px auto;
+}
+img {
+	vertical-align: middle;
+	float: left;
+}
+nav {
+	z-index: 100;
+	width: 100%;
+	background-color: #ffffff;
+	color: #989898;
+	float: right;
+	height: 10vh;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #989898;
+}
+nav ul {
+	z-index: 200;
+	float: right;
+	vertical-align: middle;
+	display: inline-block;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+/* section */
+section {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+article {
+	width: 100%;
+}
+p {
+	color: ##989898;
+	font-size: 20px;
+}
+/* taille intermédiaire */
+@media all and (max-width: 800px) {
+
+}
+/* mobile */
+@media all and (max-width: 480px) {
+	nav {
+		position: fixed;
+		top: 0;
+	}
+	#menu {
+		width: 90%;
+	}
+	img {
+		width: 30%;
+		margin: 0;
+	}
+	#liste {
+		display: none;
+	}
+	section {
+		width: 90%;
+	}
+}
