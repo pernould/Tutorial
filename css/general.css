@@ -35,10 +35,10 @@ header span {
 }
 #menu {
 	width: 60%;
-	margin: 10px auto;
+	margin: 0px auto;
 }
 img {
-	vertical-align: middle;
+	margin: 10px;
 	float: left;
 }
 nav {
@@ -52,15 +52,17 @@ nav {
 	border-bottom-style: solid;
 	border-bottom-color: #989898;
 }
-nav ul {
+ul {
+	width: auto;
 	float: right;
 	vertical-align: middle;
 	display: inline-block;
 	list-style-type: none;
 }
-nav li {
+li {
 	display: inline-block;
 	margin-right: 10px;
+	font-size: 20px;
 }
 /* section */
 section {
@@ -77,23 +79,18 @@ p {
 }
 /* taille intermédiaire */
 @media all and (max-width: 800px) {
-
+	#liste {
+		display: none;
+	}
+	#menu {
+		width: 90%;
+	}
 }
 /* mobile */
 @media all and (max-width: 480px) {
 	nav {
 		position: fixed;
 		top: 0;
-	}
-	#menu {
-		width: 90%;
-	}
-	img {
-		width: 30%;
-		margin: 0;
-	}
-	#liste {
-		display: none;
 	}
 	section {
 		width: 90%;
